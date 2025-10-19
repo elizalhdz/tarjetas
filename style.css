@@ -1,0 +1,60 @@
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: system-ui, sans-serif;
+            line-height: 1.5;
+            color: #0c0a0a;
+            background-color: #610f38;
+            padding: 2rem 1rem;
+        }
+
+        header, main {
+            max-width: 720px;
+            margin-inline: auto;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        h1 {
+            font-size: clamp(1.75rem, 4vw, 2.5rem);
+            margin-bottom: 0.5rem;
+            color: #000102;
+        }
+
+        .subtitle {
+            font-size: clamp(1rem, 2.5vw, 1.25rem);
+            color: #080808;
+        }
+
+        .cards {
+            display: grid;
+            gap: 1.5rem;
+            margin-bottom: 2rem;
+        }
+
+        .card {
+            padding: 1.5rem;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            background-color: white;
+        }
+
+        .card h2 {
+            font-size: clamp(1.25rem, 3vw, 1.5rem);
+            margin-bottom: 0.75rem;
+            color: #b94ea8;
+        }
+
+        .card p {
+            color: #0a0a0a;
+        }
+
+    
